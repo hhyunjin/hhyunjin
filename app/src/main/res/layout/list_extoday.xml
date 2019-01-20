@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/list_extoday_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:text="제목"
+            android:fontFamily="@font/jalnan"/>
+        <TextView
+            android:id="@+id/list_extoday_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:text="1010"
+            android:fontFamily="@font/jalnan"/>
+    </LinearLayout>
+    <View
+        android:layout_width="20dp"
+        android:layout_height="match_parent"/>
+    <TextView
+
+        android:id="@+id/list_extoday_memo"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:text="내용입니다"
+        android:fontFamily="@font/jalnan"/>
+
+</LinearLayout>
